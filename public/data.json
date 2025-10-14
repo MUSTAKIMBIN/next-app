@@ -1,0 +1,254 @@
+[
+  {
+    "image": "https://cdn.pixabay.com/photo/2022/01/21/00/35/whatsapp-icon-6953525_1280.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC (Meta)",
+    "id": 1,
+    "description": "WhatsApp is a free messaging and calling app that lets you stay connected with friends and family instantly. It supports text, voice, and video communication with end-to-end encryption for maximum privacy.\n\nIt also offers features like group chats, status updates, and file sharing. Businesses use WhatsApp to connect with customers through the WhatsApp Business platform, providing secure and real-time support worldwide.",
+    "size": 35,
+    "reviews": "150M",
+    "ratingAvg": 4.4,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 16 },
+      { "name": "4 star", "count": 44 },
+      { "name": "5 star", "count": 76 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/free-psd/instagram-application-logo_23-2151544100.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Instagram",
+    "companyName": "Instagram (Meta)",
+    "id": 2,
+    "description": "Instagram is a popular social platform for sharing photos, short videos, and stories with friends and followers. It’s home to billions of users who create, explore, and engage with communities globally.\n\nThe app includes features like Reels, DMs, shopping, and live streaming. With filters, editing tools, and algorithmic discovery, Instagram is where creativity meets social connection.",
+    "size": 70,
+    "reviews": "90M",
+    "ratingAvg": 4.3,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 4.5 },
+      { "name": "3 star", "count": 9 },
+      { "name": "4 star", "count": 26 },
+      { "name": "5 star", "count": 43.5 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-photo/square-tiktok-logo-isolated-white-background_469489-1029.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 3,
+    "description": "TikTok is the global home of short-form video entertainment. It enables users to discover, create, and share bite-sized videos with sound, filters, and visual effects.\n\nThe algorithm recommends content tailored to user interests, making discovery effortless. It’s the ultimate platform for creators, trends, and viral moments worldwide.",
+    "size": 85,
+    "reviews": "18M",
+    "ratingAvg": 4.6,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 0.6 },
+      { "name": "2 star", "count": 0.35 },
+      { "name": "3 star", "count": 0.8 },
+      { "name": "4 star", "count": 2.7 },
+      { "name": "5 star", "count": 13.7 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1662947852375-0d45b28ff623?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFjZWJvb2slMjBsb2dvfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 4,
+    "description": "Facebook lets you connect with friends, join groups, follow pages, and share updates, photos, and videos with your community. It’s one of the most used social networks on the planet.\n\nThe platform also offers features like Marketplace, Reels, and Watch. It remains central to social connection, content discovery, and local business promotion.",
+    "size": 65,
+    "reviews": "174M",
+    "ratingAvg": 4.4,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 24 },
+      { "name": "4 star", "count": 52 },
+      { "name": "5 star", "count": 82 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1678329885908-85eb768aa61b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1228",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "YouTube is the largest video-sharing platform where billions watch, learn, and entertain themselves every day. From creators and educators to vloggers and musicians, it’s a hub for every kind of content.\n\nThe app supports subscriptions, Shorts, comments, and offline downloads, with personalized recommendations to keep viewers engaged endlessly.",
+    "size": 110,
+    "reviews": "44M",
+    "ratingAvg": 4.3,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 3.5 },
+      { "name": "2 star", "count": 2.6 },
+      { "name": "3 star", "count": 5.2 },
+      { "name": "4 star", "count": 12.5 },
+      { "name": "5 star", "count": 21.7 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJSAAZZ_1e-EWnbHWvoV91yGm63Iew7WWLkA&s",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Gmail is a free and secure email service by Google that’s used by billions worldwide. It offers fast delivery, powerful spam filters, and intelligent search.\n\nWith its clean UI, labels, and integrations with Google Meet and Drive, Gmail keeps communication and productivity streamlined for both personal and professional use.",
+    "size": 30,
+    "reviews": "38M",
+    "ratingAvg": 4.3,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 1.6 },
+      { "name": "2 star", "count": 1.2 },
+      { "name": "3 star", "count": 3 },
+      { "name": "4 star", "count": 10 },
+      { "name": "5 star", "count": 22.6 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 7,
+    "description": "Spotify lets you stream millions of songs and podcasts from around the world. It’s loved for its sleek design, powerful recommendations, and customizable playlists.\n\nUsers can listen for free or upgrade to Premium for ad-free listening and offline playback. Spotify’s focus on personalization keeps listeners connected to music they love.",
+    "size": 85,
+    "reviews": "46M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 1.8 },
+      { "name": "2 star", "count": 0.9 },
+      { "name": "3 star", "count": 3 },
+      { "name": "4 star", "count": 10 },
+      { "name": "5 star", "count": 30.5 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1637592156979-95f44c286423?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=913",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 8,
+    "description": "Telegram is a fast, secure messaging platform with rich features like large group chats, cloud storage, bots, and public channels.\n\nIts focus on privacy and customization makes it a favorite among power users, communities, and developers looking for flexibility in communication.",
+    "size": 50,
+    "reviews": "17M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 0.4 },
+      { "name": "2 star", "count": 0.25 },
+      { "name": "3 star", "count": 0.9 },
+      { "name": "4 star", "count": 3.5 },
+      { "name": "5 star", "count": 11.85 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1649091247603-41855df8936d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=862",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 9,
+    "description": "Snapchat is a creative camera app that makes sharing fun and spontaneous. Users send Snaps that disappear after viewing, use AR Lenses, and share daily stories.\n\nWith Spotlight and Discover, Snapchat mixes fun social content with viral videos. It’s known for its focus on privacy, creativity, and self-expression.",
+    "size": 75,
+    "reviews": "42M",
+    "ratingAvg": 4.1,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 4.8 },
+      { "name": "4 star", "count": 8.8 },
+      { "name": "5 star", "count": 18.4 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5ldGZsaXh8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=400",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 10,
+    "description": "Netflix offers unlimited movies, TV shows, and original series to stream anywhere, anytime. Its vast library covers every genre imaginable, from thrillers to comedies.\n\nSubscribers enjoy offline downloads, personalized recommendations, and ad-free streaming. It remains one of the most used entertainment apps globally.",
+    "size": 60,
+    "reviews": "9M",
+    "ratingAvg": 4.2,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 0.9 },
+      { "name": "2 star", "count": 0.4 },
+      { "name": "3 star", "count": 0.7 },
+      { "name": "4 star", "count": 2 },
+      { "name": "5 star", "count": 4.3 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1657947953120-6e5201f3b3ed?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=735",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 11,
+    "description": "Uber connects riders and drivers across cities worldwide, offering convenient rides with transparent pricing and safety tools.\n\nUsers can choose from a range of ride options and track their trips in real-time. It’s an essential tool for modern urban travel.",
+    "size": 80,
+    "reviews": "20M",
+    "ratingAvg": 4.4,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 1.5 },
+      { "name": "2 star", "count": 0.9 },
+      { "name": "3 star", "count": 2.3 },
+      { "name": "4 star", "count": 5.9 },
+      { "name": "5 star", "count": 13.6 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1649734926695-1b1664e98842?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=862",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 12,
+    "description": "Amazon Shopping gives instant access to millions of products with fast delivery options. It’s designed for convenient browsing, secure checkout, and tracking orders easily.\n\nWith features like barcode scanning, wishlists, and voice search, it’s the go-to app for online shopping worldwide.",
+    "size": 95,
+    "reviews": "12M",
+    "ratingAvg": 4.4,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 0.7 },
+      { "name": "2 star", "count": 0.3 },
+      { "name": "3 star", "count": 0.9 },
+      { "name": "4 star", "count": 3.3 },
+      { "name": "5 star", "count": 5.4 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1657647269833-fc3861d7eb03?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=862",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "Google Maps helps users navigate and explore places with real-time traffic, turn-by-turn directions, and offline maps.\n\nIt’s used by billions to discover restaurants, landmarks, and local businesses — with reviews, ratings, and photos contributed by the community.",
+    "size": 60,
+    "reviews": "180M",
+    "ratingAvg": 4.4,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 3.5 },
+      { "name": "3 star", "count": 7 },
+      { "name": "4 star", "count": 35 },
+      { "name": "5 star", "count": 128 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1683007002429-deabf420bbe5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1032",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 14,
+    "description": "Zoom is the go-to video conferencing tool for meetings, webinars, and classes. It enables high-quality video calls and real-time collaboration.\n\nWith screen sharing, recording, and breakout rooms, Zoom connects teams, students, and professionals across the world effortlessly.",
+    "size": 120,
+    "reviews": "15M",
+    "ratingAvg": 4.3,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 1.2 },
+      { "name": "2 star", "count": 0.7 },
+      { "name": "3 star", "count": 1.7 },
+      { "name": "4 star", "count": 4.2 },
+      { "name": "5 star", "count": 7.6 }
+    ]
+  }
+]
