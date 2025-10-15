@@ -50,7 +50,7 @@ const Navber = () => {
           <Link to={"/"}>
             <div className="flex items-center r gap-2.5">
               <img className="w-[25%] md:w-[10%]" src={logo} alt="logo" />
-              <a className="font-bold text-xl text-[#7941E8]">NextApp</a>
+              <p className="font-bold text-xl text-[#7941E8]">NextApp</p>
             </div>
           </Link>
         </div>
@@ -59,9 +59,9 @@ const Navber = () => {
         </div>
         <div className="navbar-end">
           <Link to={`https://github.com/MUSTAKIMBIN`}>
-            <a className="btn bg-linear-to-r from-[#7941E8] to-[#AB76F4] text-white">
+            <p className="btn bg-linear-to-r from-[#7941E8] to-[#AB76F4] text-white">
               <FaGithub /> Contribute
-            </a>
+            </p>
           </Link>
         </div>
       </div>

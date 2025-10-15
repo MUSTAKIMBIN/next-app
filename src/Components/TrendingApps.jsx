@@ -1,0 +1,21 @@
+import React from "react";
+import AppsCard from "./AppsCard";
+
+const TrendingApps = ({ allData }) => {
+  console.log(allData);
+  return (
+    <div className="w-[90%] mx-auto my-10">
+      <h3 className="text-3xl font-semibold text-center">Trending Apps</h3>
+      <p className="text-sm text-gray-400 text-center my-4">
+        Explore All Trending Apps on the Market developed by us
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5">
+        {allData.map((app) => (
+          <AppsCard key={app.id} app={app}></AppsCard>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default TrendingApps;
