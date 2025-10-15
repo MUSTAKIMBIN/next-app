@@ -1,7 +1,80 @@
 import React from "react";
+import { useLoaderData, useParams } from "react-router";
+import rating from "../assets/icon-ratings.png";
+import review from "../assets/icon-review.png";
+import download from "../assets/icon-downloads.png";
 
 const AppsDetail = () => {
-  return <div>appDEtail</div>;
+  const { id } = useParams();
+  const appId = parseInt(id);
+  const appsData = useLoaderData();
+  const sellectedApp = appsData.find((app) => app.id === appId);
+  console.log(sellectedApp);
+  const {
+    ratings,
+    title,
+    size,
+    reviews,
+    ratingAvg,
+    image,
+    downloads,
+    description,
+    companyName,
+  } = sellectedApp;
+  return (
+    <div className="w-[90%] mx-auto my-10">
+      {/* app info div */}
+      <div className="flex flex-col md:flex-row gap-8">
+        {/* app img div */}
+        <div>
+          <img src={image} alt="app Image" />
+        </div>
+
+        <div className="w-full">
+          <h2 className="text-xl font-bold text-[#0F273D]">{title}</h2>
+          <p className="text-sm text-gray-400 my-2">
+            Developed by :{" "}
+            <span className="text-[#773FE8] font-medium">{companyName}</span>
+          </p>
+          <div className="divider"></div>
+          <div className="flex items-center gap-3 md:gap-14 my-2.5">
+            <div className="flex flex-col text-center justify-center">
+              <div className="w-[20px]">
+                <img className="" src={download} alt="download" />
+              </div>
+              <p className="text-sm my-1.5 text-gray-400">Downloads</p>
+              <p className="text-4xl font-black text-[#0F273D]">{downloads}</p>
+            </div>
+            <div className="flex flex-col text-center justify-center">
+              <div className="w-[20px]">
+                <img className="" src={rating} alt="download" />
+              </div>
+              <p className="text-sm my-1.5 text-gray-400">Average Ratings</p>
+              <p className="text-4xl font-black text-[#0F273D]">{ratingAvg}</p>
+            </div>
+            <div className="flex flex-col text-center justify-center">
+              <div className="w-[20px]">
+                <img className="" src={review} alt="download" />
+              </div>
+              <p className="text-sm my-1.5 text-gray-400">Total Reviews</p>
+              <p className="text-4xl font-black text-[#0F273D]">{reviews}</p>
+            </div>
+          </div>
+          <div>
+            <button className="btn bg-[#07BFB0] text-white">
+              Install Now ({size}) mb
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="divider"></div>
+      {/* app chart div */}
+      <div>chart</div>
+      <div className="divider"></div>
+      {/* app description div */}
+      <p className="text-sm text-gray-400">{description}</p>
+    </div>
+  );
 };
 
 export default AppsDetail;
