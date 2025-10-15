@@ -18,7 +18,7 @@ const Navber = () => {
     </>
   );
   return (
-    <div className="w-[90%] mx-auto">
+    <div className="md:w-[90%] mx-auto">
       <div className="navbar bg-base-100 ">
         <div className="navbar-start">
           <div className="dropdown">
