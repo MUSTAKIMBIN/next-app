@@ -26,7 +26,7 @@ const Apps = () => {
           <input type="text" placeholder="Search here" />
         </label>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5">
+      <div className="grid grid-cols- md:grid-cols-3 lg:grid-cols-4 gap-3.5">
         {allAppsData.map((app) => (
           <AppsCard key={app.id} app={app}></AppsCard>
         ))}
