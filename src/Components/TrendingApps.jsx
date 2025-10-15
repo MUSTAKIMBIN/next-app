@@ -3,7 +3,7 @@ import AppsCard from "./AppsCard";
 import { Link } from "react-router";
 
 const TrendingApps = ({ allData }) => {
-  console.log(allData);
+  // console.log(allData);
   return (
     <div className="w-[90%] mx-auto my-10">
       <h3 className="text-3xl font-semibold text-center">Trending Apps</h3>
