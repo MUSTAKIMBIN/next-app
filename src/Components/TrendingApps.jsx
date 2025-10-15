@@ -16,7 +16,7 @@ const TrendingApps = ({ allData }) => {
         ))}
       </div>
       <div className="grid place-items-center my-5">
-        <Link to={``}>
+        <Link to={`/apps`}>
           {/* write the correct link  */}
           <p className="btn bg-linear-to-r from-[#7941E8] to-[#AB76F4]  text-white">
             Show All
