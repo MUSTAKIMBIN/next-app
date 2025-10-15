@@ -11,7 +11,7 @@ const TrendingApps = ({ allData }) => {
         Explore All Trending Apps on the Market developed by us
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2.5">
-        {allData.map((app) => (
+        {allData.slice(0, 8).map((app) => (
           <AppsCard key={app.id} app={app}></AppsCard>
         ))}
       </div>
