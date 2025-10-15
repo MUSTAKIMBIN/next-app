@@ -48,7 +48,7 @@ const Navber = () => {
           </div>
 
           <Link to={"/"}>
-            <div className="flex items-center r gap-2.5">
+            <div className="flex items-center gap-2.5">
               <img className="w-[25%] md:w-[10%]" src={logo} alt="logo" />
               <p className="font-bold text-xl text-[#7941E8]">NextApp</p>
             </div>

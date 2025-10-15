@@ -1,5 +1,6 @@
 import React from "react";
 import AppsCard from "./AppsCard";
+import { Link } from "react-router";
 
 const TrendingApps = ({ allData }) => {
   console.log(allData);
@@ -13,6 +14,14 @@ const TrendingApps = ({ allData }) => {
         {allData.map((app) => (
           <AppsCard key={app.id} app={app}></AppsCard>
         ))}
+      </div>
+      <div className="grid place-items-center my-5">
+        <Link to={``}>
+          {/* write the correct link  */}
+          <p className="btn bg-linear-to-r from-[#7941E8] to-[#AB76F4]  text-white">
+            Show All
+          </p>
+        </Link>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const AppsCard = ({ app }) => {
           alt="appPic"
         />
       </div>
-      <h3 className="text-base font-semibold">{title}</h3>
+      <h3 className="text-base font-semibold my-1.5">{title}</h3>
       <div className="flex items-center justify-between">
         <div className="px-3 py-2 bg-gray-100 rounded-sm text-[#2DD9A1] flex items-center gap-1 text-sm">
           <FaDownload /> <p className="font-semibold">{downloads}</p>
