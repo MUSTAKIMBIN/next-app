@@ -14,6 +14,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { saveAppsToLs } from "../Utility/utility";
 
 const AppsDetail = () => {
   const { id } = useParams();
@@ -21,11 +22,13 @@ const AppsDetail = () => {
   const appsData = useLoaderData();
   const sellectedApp = appsData.find((app) => app.id === appId);
   const [appDownload, setAppDownload] = useState(false);
+
   // console.log(sellectedApp);
   const handleDownload = (id) => {
     console.log(`app download ${id}`);
     setAppDownload(true);
     toast(`${sellectedApp.title} downloaded`);
+    saveAppsToLs(id);
   };
   const {
     ratings,
