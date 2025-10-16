@@ -19,7 +19,9 @@ const Apps = () => {
         className="flex
       items-center justify-between my-5"
       >
-        <p className="text-base font-medium ">(00) Apps Found</p>
+        <p className="text-base font-medium ">
+          ({allAppsData.length}) Apps Found
+        </p>
 
         <label className="flex items-center justify-center gap-1.5 border border-gray-200 py-1.5 px-1 rounded-sm">
           <CiSearch />

@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import rating from "../assets/icon-ratings.png";
 import review from "../assets/icon-review.png";
 import download from "../assets/icon-downloads.png";
+import { ToastContainer, toast } from "react-toastify";
 import {
   Bar,
   BarChart,
@@ -19,7 +20,13 @@ const AppsDetail = () => {
   const appId = parseInt(id);
   const appsData = useLoaderData();
   const sellectedApp = appsData.find((app) => app.id === appId);
-  console.log(sellectedApp);
+  const [appDownload, setAppDownload] = useState(false);
+  // console.log(sellectedApp);
+  const handleDownload = (id) => {
+    console.log(`app download ${id}`);
+    setAppDownload(true);
+    toast(`${sellectedApp.title} downloaded`);
+  };
   const {
     ratings,
     title,
@@ -71,8 +78,16 @@ const AppsDetail = () => {
             </div>
           </div>
           <div>
-            <button className="btn bg-[#07BFB0] text-white">
-              Install Now ({size}) mb
+            <button
+              onClick={() => handleDownload(appId)}
+              disabled={appDownload}
+              className={`btn ${
+                appDownload
+                  ? "bg-gray-400 text-white cursor-not-allowed"
+                  : " bg-[#07BFB0] text-white "
+              }`}
+            >
+              {appDownload ? `Installed` : ` Install Now (${size}) mb`}
             </button>
           </div>
         </div>
@@ -102,6 +117,7 @@ const AppsDetail = () => {
       <div className="divider"></div>
       {/* app description div */}
       <p className="text-sm text-gray-400">{description}</p>
+      <ToastContainer />
     </div>
   );
 };
