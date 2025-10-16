@@ -7,13 +7,34 @@ const Navber = () => {
   const links = (
     <>
       <li>
-        <NavLink to={"/"}>Home</NavLink>
+        <NavLink
+          to={"/"}
+          className={({ isActive }) =>
+            isActive && "text-[#8B51ED] font-medium bg-[#8a51ed45]"
+          }
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to={"/apps"}>Apps</NavLink>
+        <NavLink
+          to={"/apps"}
+          className={({ isActive }) =>
+            isActive && "text-[#8B51ED] font-medium bg-[#8a51ed45]"
+          }
+        >
+          Apps
+        </NavLink>
       </li>
       <li>
-        <NavLink to={"/instalation"}>Installation</NavLink>
+        <NavLink
+          to={"/installation"}
+          className={({ isActive }) =>
+            isActive && "text-[#8B51ED] font-medium bg-[#8a51ed45]"
+          }
+        >
+          Installation
+        </NavLink>
       </li>
     </>
   );
