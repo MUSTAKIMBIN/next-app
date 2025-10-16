@@ -3,6 +3,16 @@ import { useLoaderData, useParams } from "react-router";
 import rating from "../assets/icon-ratings.png";
 import review from "../assets/icon-review.png";
 import download from "../assets/icon-downloads.png";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 const AppsDetail = () => {
   const { id } = useParams();
@@ -69,7 +79,26 @@ const AppsDetail = () => {
       </div>
       <div className="divider"></div>
       {/* app chart div */}
-      <div>chart</div>
+      <div style={{ width: "100%", height: 300 }}>
+        <ResponsiveContainer>
+          <BarChart
+            data={ratings}
+            layout="vertical"
+            margin={{ top: 10, right: 10, left: 60, bottom: 10 }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis type="number" />
+            <YAxis type="category" dataKey="name" />
+            <Tooltip />
+            <Bar
+              dataKey="count"
+              fill="#FFA500"
+              barSize={30}
+              radius={[0, 10, 10, 0]}
+            />
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
       <div className="divider"></div>
       {/* app description div */}
       <p className="text-sm text-gray-400">{description}</p>
