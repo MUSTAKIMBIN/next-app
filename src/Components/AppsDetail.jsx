@@ -25,7 +25,7 @@ const AppsDetail = () => {
 
   // console.log(sellectedApp);
   const handleDownload = (id) => {
-    console.log(`app download ${id}`);
+    // console.log(`app download ${id}`);
     setAppDownload(true);
     toast(`${sellectedApp.title} downloaded`);
     saveAppsToLs(id);
@@ -97,7 +97,7 @@ const AppsDetail = () => {
       </div>
       <div className="divider"></div>
       {/* app chart div */}
-      <div style={{ width: "100%", height: 300 }}>
+      <div style={{ width: "90%", height: 300 }}>
         <ResponsiveContainer>
           <BarChart
             data={ratings}

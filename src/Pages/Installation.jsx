@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { getAppsFromLs } from "../Utility/utility";
+import { getAppsFromLs, removeAppsFromLs } from "../Utility/utility";
 import { useLoaderData } from "react-router";
 import { FaStar } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa6";
+import { ToastContainer, toast } from "react-toastify";
 
 const Installation = () => {
   const allAppsData = useLoaderData();
@@ -14,6 +15,13 @@ const Installation = () => {
     );
     setLsData(finalAppsData);
   }, []);
+
+  const handleUnstall = (id) => {
+    removeAppsFromLs(id);
+    const lastApps = lsData.filter((app) => app.id !== id);
+    // console.log(lastApps);
+    setLsData(lastApps);
+  };
   return (
     <div className="w-[90%] mx-auto">
       <h2 className="text-4xl text-[#001931] font-bold text-center my-3">
@@ -55,11 +63,19 @@ const Installation = () => {
               </div>
             </div>
             <div>
-              <button className="btn text-white bg-[#07BFB0]">Unstall</button>
+              <button
+                onClick={() => {
+                  handleUnstall(app.id), toast(`Unstall ${app.title} `);
+                }}
+                className="btn text-white bg-[#07BFB0]"
+              >
+                Unstall
+              </button>
             </div>
           </div>
         ))}
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
