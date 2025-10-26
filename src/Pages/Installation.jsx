@@ -22,6 +22,8 @@ const Installation = () => {
     // console.log(lastApps);
     setLsData(lastApps);
   };
+  // to do
+  // I have to add sort and search functionality
   return (
     <div className="w-[90%] mx-auto">
       <h2 className="text-4xl text-[#001931] font-bold text-center my-3">
