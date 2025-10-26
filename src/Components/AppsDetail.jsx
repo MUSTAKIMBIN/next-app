@@ -42,6 +42,7 @@ const AppsDetail = () => {
     companyName,
   } = sellectedApp;
   return (
+    // app detail main div
     <div className="w-[90%] mx-auto my-10">
       {/* app info div */}
       <div className="flex flex-col md:flex-row gap-8">
